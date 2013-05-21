@@ -1,0 +1,47 @@
+/*!
+ * Signature v0.4
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+@font-face {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('ABeeZee'), local('ABeeZee-Regular'), url(../fonts/zhbx7NQl8ktGP8FS60Z_oQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Carrois Gothic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Carrois Gothic SC'), local('CarroisGothicSC-Regular'), url(../fonts/bVp4nhwFIXU-r3LqUR8DSJDLFmdXetBaxVj2IReX7o0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Numans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Numans'), local('Numans-Regular'), url(../fonts/zT0iBzsTkNwjJo54XeqGAevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(../fonts/vRvZYZlUaogOuHbBTT1SNevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+body{
+	/*text-size-adjust not support from chrome 27*/
+	-webkit-text-size-adjust:none;
+}
+
+form{
+	margin:0 0 10px;
+}
+
+canvas {
+	font-family: "Ubuntu","Numans","Carrois Gothic SC","ABeeZee","微软雅黑"; 
+}
