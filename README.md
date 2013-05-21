@@ -1,7 +1,13 @@
 Signature!
 ==========
 
-HTML5版本的在线签名档工具。
+![m](https://raw.github.com/puterjam/Signature-/master/img/apple-touch-icon-114-precomposed.png)
+
+#### 简介
+
+**Signature!** HTML5版本的在线签名档工具。由腾讯SNS应用部前端团队提供支持。
+
+****
 
 #### 版本以及作者信息
 **版本:** V0.42
