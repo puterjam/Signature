@@ -26,6 +26,7 @@ Signature!
 
 添加新模板在 `js/themes.js` 中编辑即可。模板范例如下:
 
+```javascript
 	/**
 	 * 主题范例
 	 * @type {Object}
@@ -61,6 +62,7 @@ Signature!
 				color: "#666666"
 			}
 		}
+```
 
 ****
 
