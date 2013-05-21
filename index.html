@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Signature! by puterjam</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/puterjam/Signature">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/puterjam/Signature/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/puterjam/Signature/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Signature!</h1>
+          <p>HTML5版本的在线签名档工具。</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/puterjam">puterjam</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>Signature!</h1>
+
+<p><img src="https://raw.github.com/puterjam/Signature-/master/img/apple-touch-icon-114-precomposed.png" alt="m"></p>
+
+<h4>简介</h4>
+
+<p><strong>Signature!</strong> HTML5版本的在线签名档工具。由腾讯SNS应用部前端团队提供支持。</p>
+
+<hr><h4>版本以及作者信息</h4>
+
+<p><strong>版本:</strong> V0.42</p>
+
+<p><strong>作者:</strong> FrontEnd Team from Tencent SNS department.</p>
+
+<hr><h4>使用说明</h4>
+
+<p>本地直接访问<code>index.html</code>即可， 当然你也可以上传到服务器。</p>
+
+<p>我们不提供模板制作的支持。</p>
+
+<hr><h4>模板制作</h4>
+
+<p>提供图片的DataURI或者具体的图片路径（图片路径需要避免跨域问题）。</p>
+
+<p>添加新模板在 <code>js/themes.js</code> 中编辑即可。模板范例如下:</p>
+
+<div class="highlight"><pre>    <span class="cm">/**</span>
+<span class="cm">     * 主题范例</span>
+<span class="cm">     * @type {Object}</span>
+<span class="cm">     */</span>
+    <span class="kd">var</span> <span class="nx">THEME2</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="nx">bg</span><span class="o">:</span> <span class="s1">'data:image/png;base64,iVBORw0KGgoAAA...'</span><span class="p">,</span>
+        <span class="nx">width</span><span class="o">:</span> <span class="mi">680</span><span class="p">,</span>
+        <span class="nx">height</span><span class="o">:</span> <span class="mi">140</span><span class="p">,</span>
+        <span class="nx">name</span><span class="o">:</span> <span class="s2">"纯白"</span><span class="p">,</span>
+        <span class="nx">textStyle</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="p">{</span>
+                <span class="nx">font</span><span class="o">:</span> <span class="s2">"bold 28px Ubuntu"</span><span class="p">,</span>
+                <span class="nx">x</span><span class="o">:</span> <span class="mi">169</span><span class="p">,</span>
+                <span class="nx">y</span><span class="o">:</span> <span class="mi">48</span><span class="p">,</span>
+                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#4C4C4C"</span>
+            <span class="p">},</span>
+            <span class="nx">group</span><span class="o">:</span> <span class="p">{</span>
+                <span class="nx">font</span><span class="o">:</span> <span class="s2">"16px Ubuntu"</span><span class="p">,</span>
+                <span class="nx">x</span><span class="o">:</span> <span class="s2">"175 + %name%"</span><span class="p">,</span>
+                <span class="nx">y</span><span class="o">:</span> <span class="mi">48</span><span class="p">,</span>
+                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#FF6A00"</span>
+            <span class="p">},</span>
+            <span class="nx">phone</span><span class="o">:</span> <span class="p">{</span>
+                <span class="nx">font</span><span class="o">:</span> <span class="s2">"12px Ubuntu"</span><span class="p">,</span>
+                <span class="nx">x</span><span class="o">:</span> <span class="mi">188</span><span class="p">,</span>
+                <span class="nx">y</span><span class="o">:</span> <span class="mi">89</span><span class="p">,</span>
+                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#666666"</span>
+            <span class="p">},</span>
+            <span class="nx">mobile</span><span class="o">:</span> <span class="p">{</span>
+                <span class="nx">font</span><span class="o">:</span> <span class="s2">"12px Ubuntu"</span><span class="p">,</span>
+                <span class="nx">x</span><span class="o">:</span> <span class="mi">358</span><span class="p">,</span>
+                <span class="nx">y</span><span class="o">:</span> <span class="mi">89</span><span class="p">,</span>
+                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#666666"</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+</pre></div>
+
+<hr><h4>HTML5技术支持</h4>
+
+<p>使用到的H5的技术细节</p>
+
+<blockquote>
+<ol>
+<li><a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas" target="_blank">Canvas</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/DOM/window.atob" target="_blank">window.atob</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/DOM/Blob" target="_blank">Blob</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/DOM/window.URL.createObjectURL" target="_blank">URL.createObjectURL</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/JavaScript/Typed_arrays" target="_blank">JavaScript typed arrays</a></li>
+<li><a href="http://updates.html5rocks.com/2011/08/Downloading-resources-in-HTML5-a-download" target="_blank">a[download]</a></li>
+<li><a href="http://www.google.com/fonts/" target="_blank">Google Fonts</a></li>
+</ol>
+</blockquote>
+
+<hr><h4>LICENSE</h4>
+
+<p><a href="http://www.apache.org/licenses/LICENSE-2.0.txt">http://www.apache.org/licenses/LICENSE-2.0.txt</a></p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
