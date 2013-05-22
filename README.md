@@ -10,7 +10,7 @@ Signature!
 ****
 
 #### 版本以及作者信息
-**版本:** V0.42
+**版本:** V0.5
 
 **作者:** FrontEnd Team from Tencent SNS department.
 ****
@@ -33,36 +33,65 @@ Signature!
 	 */
 	var THEME2 = {
 		bg: 'data:image/png;base64,iVBORw0KGgoAAA...',
-		width: 680,
-		height: 140,
-		name: "纯白",
+		width: 503,
+		height: 120,
+		name: "亮蓝",
 		textStyle: {
 			name: {
-				font: "bold 28px Ubuntu",
-				x: 169,
-				y: 48,
-				color: "#4C4C4C"
+				font:{
+					family:"Ubuntu",
+					size:"21px",
+					weight:"normal", //normal bold lighter... [Optional]
+					style:"normal" //normal italic oblique [Optional]
+				},
+				x: 149,
+				y: 34,
+				color: "#ffffff"
 			},
 			group: {
-				font: "16px Ubuntu",
-				x: "175 + %name%",
-				y: 48,
-				color: "#FF6A00"
+				font: {
+					family:"Ubuntu",
+					size:"12px"
+				},
+				x: "155 + %name%",
+				y: 34,
+				color: "#ffc73a"
 			},
 			phone: {
-				font: "12px Ubuntu",
-				x: 188,
-				y: 89,
-				color: "#666666"
+				font: {
+					family:"Ubuntu",
+					size:"13px"
+				},
+				x: 169,
+				y: 73,
+				color: "#ffffff"
 			},
 			mobile: {
-				font: "12px Ubuntu",
-				x: 358,
-				y: 89,
-				color: "#666666"
+				font: {
+					family:"Ubuntu",
+					size:"13px"
+				},
+				x: 352,
+				y: 73,
+				color: "#ffffff"
 			}
 		}
+	};
 ```
+****
+
+#### 更新历史
+#####0.5
+1. 修改模板 `font` 字段的规则，由原来的字符串改成对象。
+2. 支持更换模板字体
+3. 增加GitHub的入口
+4. 优化代码结构，让代码看起来更加美观
+
+#####0.4
+1. 基本功能完成
+2. 可以输出主题
+3. 上传到GitHub
+
 
 ****
 

@@ -24,6 +24,41 @@
 		'	</p>',
 		'</div>'].join("");
 
+	/**
+	 * 字体列表
+	 * @type {Array}
+	 */
+	var FONTS = [
+			"default",
+			"-",
+			"Arial",
+			"Arial Black",
+			"微软雅黑",
+			"宋体",
+			"-",
+			"kaiti SC",
+			"Songti SC",
+			"Hiragino Sans GB W3",
+			"-",
+			"ABeeZee",
+			"Carrois Gothic SC",
+			"Numans",
+			"Ubuntu"
+		];
+
+	/**
+	 * 字体合法的规则
+	 * @type {Array}
+	 */
+	var _FONTS_RULES={};
+
+	["style","weight","size","family"].forEach(function(v,k){
+		_FONTS_RULES[v] = k+1;
+	});
+
+	var _CUSTOM_FONT = {"name":"default","group":"default","phone":"default","mobile":"default"};
+
+
 	//TODO 暂时放这里先吧，其实不太好
 	//获取当前的主题配置
 	var currentThemes = window.THEME_CONFIG;
@@ -50,6 +85,7 @@
 		renderAllSign();
 	}
 
+	/** 渲染所有的签名档 */
 	var renderAllSign = function() {
 		for (var k in currentThemes) {
 			renderSign(k);
@@ -119,7 +155,19 @@
 			y = _fixPosition(ctx, theme, format.y, "y");
 
 		//setup font style
-		ctx.font = format.font;
+		var font = new Array(3);
+		for (var k in format.font){
+			//检测可用的规则，以及调整字体的组合顺序
+			if (_FONTS_RULES[k]) {
+				if (k == "family") {
+					font[_FONTS_RULES[k]-1] = _CUSTOM_FONT[textId]=="default"?format.font[k]:_CUSTOM_FONT[textId];//
+				}else{
+					font[_FONTS_RULES[k]-1] = format.font[k];
+				}
+			}
+		}
+
+		ctx.font = font.join(" ").replace(/\x20+/g,"\x20");
 
 		//fill color
 		ctx.fillStyle = format.color;
@@ -175,8 +223,47 @@
 		}); // more https://developer.mozilla.org/zh-CN/docs/DOM/Blob
 	}
 
+	//初始化文本列表
+	var initFontList = function(){
+		var html = [];
+		FONTS && FONTS.forEach(function(value){
+			if (value == "-") {
+				html.push('<li class="divider"></li>');
+			}else{
+				var _start = '<li class="'+(value=="default"?'active':'')+'"><a href="#'+value+'" font-family="'+value+'" style="font-family:'+(value=="default"?'':value)+';">'+(value=="default"?'使用主题自带':value)+'</a>';
+				
+				//TODO 暂时保留以后增加字体样式
+				//_size = '<ul class="dropdown-menu"><li><a href="">12px</a></ul>';
+
+				html.push(_start + '</li>');
+			}
+		});
+
+		$('.font-list').html(html.join("")).on("click", function(e){
+			var target = e.target;
+			var family = target.getAttribute("font-family");
+			if (family) {
+				var _ct = e.currentTarget;
+				var textId = _ct.getAttribute("for-field");
+				_CUSTOM_FONT[textId] = family;
+				renderAllSign();
+
+				//异步去更新下拉列表
+				setTimeout(function(){
+					//去掉所有高亮标示
+					$(_ct).children().removeClass("active");
+					$(target).parent().addClass("active")
+				},0);
+			}
+			e.preventDefault();
+		});
+	}
+
 	//代码初始化入口
 	$(document).ready(function init() {
+		//初始化字体选择框
+		initFontList();
+
 		//绑定输入框的键盘事件
 		$("#theme_config input").on("keyup", renderAllSign);
 

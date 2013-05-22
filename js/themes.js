@@ -16,25 +16,39 @@
 		name: "亮蓝",
 		textStyle: {
 			name: {
-				font: "21px Ubuntu",
+				font:{
+					family:"Ubuntu",
+					size:"21px",
+					weight:"normal", //normal bold lighter... [Optional]
+					style:"normal" //normal italic oblique [Optional]
+				},
 				x: 149,
 				y: 34,
 				color: "#ffffff"
 			},
 			group: {
-				font: "12px Ubuntu",
+				font: {
+					family:"Ubuntu",
+					size:"12px"
+				},
 				x: "155 + %name%",
 				y: 34,
 				color: "#ffc73a"
 			},
 			phone: {
-				font: "13px Ubuntu",
+				font: {
+					family:"Ubuntu",
+					size:"13px"
+				},
 				x: 169,
 				y: 73,
 				color: "#ffffff"
 			},
 			mobile: {
-				font: "13px Ubuntu",
+				font: {
+					family:"Ubuntu",
+					size:"13px"
+				},
 				x: 352,
 				y: 73,
 				color: "#ffffff"
@@ -53,25 +67,38 @@
 		name: "纯白",
 		textStyle: {
 			name: {
-				font: "bold 28px Ubuntu",
+				font: {
+					family:"Ubuntu",
+					size:"21px",
+					weight:"bold"
+				},
 				x: 169,
 				y: 48,
 				color: "#4C4C4C"
 			},
 			group: {
-				font: "16px Ubuntu",
+				font: {
+					family:"Ubuntu",
+					size:"16px"
+				},
 				x: "175 + %name%",
 				y: 48,
 				color: "#FF6A00"
 			},
 			phone: {
-				font: "12px Ubuntu",
+				font: {
+					family:"Ubuntu",
+					size:"12px"
+				},
 				x: 188,
 				y: 89,
 				color: "#666666"
 			},
 			mobile: {
-				font: "12px Ubuntu",
+				font: {
+					family:"Ubuntu",
+					size:"12px"
+				},
 				x: 358,
 				y: 89,
 				color: "#666666"
