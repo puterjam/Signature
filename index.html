@@ -1,44 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Signature! by puterjam</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <title>Signature! by puterjam</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/puterjam/Signature">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/puterjam/Signature/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/puterjam/Signature/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
-
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>Signature!</h1>
-          <p>HTML5版本的在线签名档工具。</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/puterjam">puterjam</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-        </div>
-
+    <header>
+      <div class="inner">
         <h1>Signature!</h1>
+        <h2>HTML5版本的在线签名档工具。</h2>
+        <a href="https://github.com/puterjam/Signature" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>Signature!</h1>
 
 <p><img src="https://raw.github.com/puterjam/Signature-/master/img/apple-touch-icon-114-precomposed.png" alt="m"></p>
 
@@ -48,7 +38,7 @@
 
 <hr><h4>版本以及作者信息</h4>
 
-<p><strong>版本:</strong> V0.42</p>
+<p><strong>版本:</strong> V0.5</p>
 
 <p><strong>作者:</strong> FrontEnd Team from Tencent SNS department.</p>
 
@@ -70,38 +60,68 @@
 <span class="cm">     */</span>
     <span class="kd">var</span> <span class="nx">THEME2</span> <span class="o">=</span> <span class="p">{</span>
         <span class="nx">bg</span><span class="o">:</span> <span class="s1">'data:image/png;base64,iVBORw0KGgoAAA...'</span><span class="p">,</span>
-        <span class="nx">width</span><span class="o">:</span> <span class="mi">680</span><span class="p">,</span>
-        <span class="nx">height</span><span class="o">:</span> <span class="mi">140</span><span class="p">,</span>
-        <span class="nx">name</span><span class="o">:</span> <span class="s2">"纯白"</span><span class="p">,</span>
+        <span class="nx">width</span><span class="o">:</span> <span class="mi">503</span><span class="p">,</span>
+        <span class="nx">height</span><span class="o">:</span> <span class="mi">120</span><span class="p">,</span>
+        <span class="nx">name</span><span class="o">:</span> <span class="s2">"亮蓝"</span><span class="p">,</span>
         <span class="nx">textStyle</span><span class="o">:</span> <span class="p">{</span>
             <span class="nx">name</span><span class="o">:</span> <span class="p">{</span>
-                <span class="nx">font</span><span class="o">:</span> <span class="s2">"bold 28px Ubuntu"</span><span class="p">,</span>
-                <span class="nx">x</span><span class="o">:</span> <span class="mi">169</span><span class="p">,</span>
-                <span class="nx">y</span><span class="o">:</span> <span class="mi">48</span><span class="p">,</span>
-                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#4C4C4C"</span>
+                <span class="nx">font</span><span class="o">:</span><span class="p">{</span>
+                    <span class="nx">family</span><span class="o">:</span><span class="s2">"Ubuntu"</span><span class="p">,</span>
+                    <span class="nx">size</span><span class="o">:</span><span class="s2">"21px"</span><span class="p">,</span>
+                    <span class="nx">weight</span><span class="o">:</span><span class="s2">"normal"</span><span class="p">,</span> <span class="c1">//normal bold lighter... [Optional]</span>
+                    <span class="nx">style</span><span class="o">:</span><span class="s2">"normal"</span> <span class="c1">//normal italic oblique [Optional]</span>
+                <span class="p">},</span>
+                <span class="nx">x</span><span class="o">:</span> <span class="mi">149</span><span class="p">,</span>
+                <span class="nx">y</span><span class="o">:</span> <span class="mi">34</span><span class="p">,</span>
+                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#ffffff"</span>
             <span class="p">},</span>
             <span class="nx">group</span><span class="o">:</span> <span class="p">{</span>
-                <span class="nx">font</span><span class="o">:</span> <span class="s2">"16px Ubuntu"</span><span class="p">,</span>
-                <span class="nx">x</span><span class="o">:</span> <span class="s2">"175 + %name%"</span><span class="p">,</span>
-                <span class="nx">y</span><span class="o">:</span> <span class="mi">48</span><span class="p">,</span>
-                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#FF6A00"</span>
+                <span class="nx">font</span><span class="o">:</span> <span class="p">{</span>
+                    <span class="nx">family</span><span class="o">:</span><span class="s2">"Ubuntu"</span><span class="p">,</span>
+                    <span class="nx">size</span><span class="o">:</span><span class="s2">"12px"</span>
+                <span class="p">},</span>
+                <span class="nx">x</span><span class="o">:</span> <span class="s2">"155 + %name%"</span><span class="p">,</span>
+                <span class="nx">y</span><span class="o">:</span> <span class="mi">34</span><span class="p">,</span>
+                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#ffc73a"</span>
             <span class="p">},</span>
             <span class="nx">phone</span><span class="o">:</span> <span class="p">{</span>
-                <span class="nx">font</span><span class="o">:</span> <span class="s2">"12px Ubuntu"</span><span class="p">,</span>
-                <span class="nx">x</span><span class="o">:</span> <span class="mi">188</span><span class="p">,</span>
-                <span class="nx">y</span><span class="o">:</span> <span class="mi">89</span><span class="p">,</span>
-                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#666666"</span>
+                <span class="nx">font</span><span class="o">:</span> <span class="p">{</span>
+                    <span class="nx">family</span><span class="o">:</span><span class="s2">"Ubuntu"</span><span class="p">,</span>
+                    <span class="nx">size</span><span class="o">:</span><span class="s2">"13px"</span>
+                <span class="p">},</span>
+                <span class="nx">x</span><span class="o">:</span> <span class="mi">169</span><span class="p">,</span>
+                <span class="nx">y</span><span class="o">:</span> <span class="mi">73</span><span class="p">,</span>
+                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#ffffff"</span>
             <span class="p">},</span>
             <span class="nx">mobile</span><span class="o">:</span> <span class="p">{</span>
-                <span class="nx">font</span><span class="o">:</span> <span class="s2">"12px Ubuntu"</span><span class="p">,</span>
-                <span class="nx">x</span><span class="o">:</span> <span class="mi">358</span><span class="p">,</span>
-                <span class="nx">y</span><span class="o">:</span> <span class="mi">89</span><span class="p">,</span>
-                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#666666"</span>
+                <span class="nx">font</span><span class="o">:</span> <span class="p">{</span>
+                    <span class="nx">family</span><span class="o">:</span><span class="s2">"Ubuntu"</span><span class="p">,</span>
+                    <span class="nx">size</span><span class="o">:</span><span class="s2">"13px"</span>
+                <span class="p">},</span>
+                <span class="nx">x</span><span class="o">:</span> <span class="mi">352</span><span class="p">,</span>
+                <span class="nx">y</span><span class="o">:</span> <span class="mi">73</span><span class="p">,</span>
+                <span class="nx">color</span><span class="o">:</span> <span class="s2">"#ffffff"</span>
             <span class="p">}</span>
         <span class="p">}</span>
+    <span class="p">};</span>
 </pre></div>
 
-<hr><h4>HTML5技术支持</h4>
+<hr><h4>更新历史</h4>
+
+<h5>0.5</h5>
+
+<ol>
+<li>修改模板 <code>font</code> 字段的规则，由原来的字符串改成对象。</li>
+<li>支持更换模板字体</li>
+<li>增加GitHub的入口</li>
+<li>优化代码结构，让代码看起来更加美观</li>
+</ol><h5>0.4</h5>
+
+<ol>
+<li>基本功能完成</li>
+<li>可以输出主题</li>
+<li>上传到GitHub</li>
+</ol><hr><h4>HTML5技术支持</h4>
 
 <p>使用到的H5的技术细节</p>
 
@@ -120,10 +140,25 @@
 <hr><h4>LICENSE</h4>
 
 <p><a href="http://www.apache.org/licenses/LICENSE-2.0.txt">http://www.apache.org/licenses/LICENSE-2.0.txt</a></p>
-      </section>
+        </section>
 
+        <aside id="sidebar">
+          <a href="https://github.com/puterjam/Signature/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/puterjam/Signature/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/puterjam/Signature"></a> is maintained by <a href="https://github.com/puterjam">puterjam</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
+  
   </body>
 </html>
