@@ -13,28 +13,119 @@
     }
 
     .card-box{
-      position: relative;
+     position: relative;
+     margin: auto;
+     width: 312px;
+     height:520px;
+     padding:5px;
     }
+
     .card{
+      position: relative;
       background:#fff;
-      height:510px;
-      width:306px;
+      height:504px;
+      width:300px;
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      border-radius: 6px;
+      padding:4px;
+      font-family: sans-serif;
     }
+
     .card-bg{
       position: absolute;
-      box-shadow: 0 0 10px #000;
-      -webkit-transform: rotateX(30deg);
-      top: 0;
+      top: 5px;
+      left: 5px;
+      z-index: 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      -webkit-transform: rotateZ(-1deg);
     }
-  </style>
-  <script>
+    .bubble {
+      position: relative;
+      background-color:#eee;
+      margin: 0;
+      padding:10px;
+      text-align:center;
+      width:150px;
+      -moz-border-radius:10px;
+      -webkit-border-radius:10px;
+      -webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+      -moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+      box-shadow: 0px 0 3px rgba(0,0,0,0.25); 
+    }
+    .bubble:after {
+      position: absolute;
+      display: block;
+      content: "";  
+      border-color: transparent transparent #eee transparent;
+      border-style: solid;
+      border-width: 10px;
+      height:0;
+      width:0;
+      position:absolute;
+      top:-19px;
+      left:1em;
+    }
 
-  </script>
+    .theme-horizontal{
+      height:300px;
+    }
+
+    .field{position: absolute;}
+    .rotate{-webkit-transform: rotateZ(90deg);}
+  </style>
+
 </head>
 <body>
  <div class="card-box">
-   <!-- <div class="card"></div> -->
-   <div class="card card-bg">df</div>
+   <div class="card">
+     <!-- 模板1 -->
+     <div class="theme-horizontal rotate">
+       <div class="field" style="width:300px;height:300px">
+        <img src="http://qlogo3.store.qq.com/qzone/10644570/10644570/100" style="position:absolute;border:2px solid #fff;border-radius:3px;width:50px;margin:50%;top:-25px;left:-25px;box-shadow: 0 0 10px rgba(0,0,0,0.5);"/>
+        <img id="qr_code"/>
+       </div>
+       <div class="field" style="left: 300px;top: 133px;">
+        <h1 style="margin-bottom:-17px">陈子舜</h1>
+        <h2>Zishunchen</h2>
+        <div class="bubble" style="margin-left:20px">有志者，事竟成</div>
+       </div>
+     </div>
+     <!-- 模板1 End-->
+   </div>
  </div>
+ <script>
+  //code http://qr.liantu.com/api.php?&gc=2f3192&fg=00aeef&logo=http://qlogo3.store.qq.com/qzone/10644570/10644570/100&text=http://www.pjhome.net
+  //http://qr.liantu.com/api.php?&gc=2f3192&fg=00aeef&text=hello%20QR
+  
+ (function(window){
+  //名片格式
+  var data = {
+    "BEGIN":"VCARD",
+    "VERSION":"3.0",
+    "N":"陈子舜",
+    "TEL;WORK":"18676684012",
+    "EMAIL":"zishunchen@tencent.com",
+    "ORG":"腾讯公司",
+    "TITLE":"前端开发",
+    "ADR;WORK":"大族激光",
+    "END":"VCARD",
+  }
+
+  var QR_API = "http://qr.liantu.com/api.php?&gc=2f3192&fg=00aeef&el=l&text=";
+  var FACE_URL = "http://qlogo3.store.qq.com/qzone/<%X-QQ%>/<%X-QQ%>/100";
+
+  var getVCard = function (vcard){
+    var _data = [];
+    for (var k in vcard){
+      _data.push(k+":"+vcard[k]);
+    }
+    return encodeURIComponent(_data.join("\n"));
+  }
+
+  qr_code.src = QR_API+getVCard(data);
+ })(window);
+
+  </script>
 </body>
 </html>
