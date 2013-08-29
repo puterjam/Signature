@@ -56,6 +56,7 @@
 		_FONTS_RULES[v] = k+1;
 	});
 
+	//TODO 补充说明
 	var _CUSTOM_FONT = {"name":"default","group":"default","phone":"default","mobile":"default"};
 
 

@@ -1,0 +1,825 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"property  (variable)"
+			],
+			[
+				"ex",
+				"extends  (variable)"
+			],
+			[
+				"e",
+				"example  (variable)"
+			],
+			[
+				"oRe",
+				"oRequest"
+			],
+			[
+				"exists",
+				"path.existsSync(path);"
+			],
+			[
+				"d",
+				"deprecated  (variable)"
+			],
+			[
+				"text",
+				"textarea	<textarea>"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mini",
+				"min-height"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"webkit-tr",
+				"-webkit-transition:   (property)"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"font-",
+				"font-variant"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"ou",
+				"outline-style"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"over",
+				"overflow-y:   (property)"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"l",
+				"link  (pseudo-class)"
+			],
+			[
+				"vi",
+				"visited  (pseudo-class)"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"pa",
+				"param	@param"
+			],
+			[
+				"if",
+				"indexOf"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pak",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"wa",
+				"Word Wrap: Toggle"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"c",
+				"Set Syntax: C#"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"insll",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"v8",
+				"V8: Run JSHint"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"jac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"sour",
+				"SourceTree: Open SourceTree"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"tr",
+				"SourceTree: Open SourceTree"
+			],
+			[
+				"v",
+				"V8: Show Console"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"action",
+				"Set Syntax: ActionScript 3"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"page",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"link",
+				"Snippet: link - stylesheet"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"meta",
+				"Snippet: <meta>"
+			],
+			[
+				"Snippet: ",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"formar",
+				"Format: Javascript"
+			],
+			[
+				"javacript",
+				"Format: Javascript"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"warp",
+				"Bracket Highlighter: Show Bracket String Escape Mode"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"itodo",
+				"Set Syntax: iTodo"
+			],
+			[
+				"f",
+				"Format: Javascript"
+			],
+			[
+				"patck",
+				"Package Control: Remove Package"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"nm",
+				"Nodejs::NPM::List"
+			],
+			[
+				"pat",
+				"Package Control: Remove Package"
+			],
+			[
+				"pagepage",
+				"Package Control: List Packages"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"d",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 235.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/PuterJam/Desktop/我的笔记.enex",
+		"/Users/PuterJam/Desktop/prog_index (1).m3u8",
+		"/Users/PuterJam/Labs/Signature/js/themes.js",
+		"/Users/PuterJam/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/PuterJam/Labs/Signature/index.html",
+		"/Users/PuterJam/Labs/Signature/js/signature.js",
+		"/Users/PuterJam/Labs/Signature/Signature.sublime-workspace",
+		"/Users/PuterJam/Labs/Signature/README.md",
+		"/Users/PuterJam/Library/Application Support/Sublime Text 2/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/Users/PuterJam/Desktop/yuidoc/demo.js",
+		"/Users/PuterJam/Labs/Signature/css/font.css",
+		"/Users/PuterJam/Labs/Signature/css/style.css",
+		"/Users/PuterJam/Labs/webfont/font.css",
+		"/Users/PuterJam/Labs/webfont/sign.html",
+		"/Users/PuterJam/Labs/GR/js/_src/lib/ex/transition.js",
+		"/Users/PuterJam/Labs/GR/js/_src/lib/ex/base.js",
+		"/Users/PuterJam/Labs/GR/js/_src/lib/ex/util.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/tools/jsdoc3/install_for_mac",
+		"/Users/PuterJam/Labs/GR/js/_src/lib/ex/yuidoc.json",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/innerlib/ex_mobile/yuidoc.json",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/innerlib/ex_mobile/build.jsdoc",
+		"/Users/PuterJam/Labs/GR/js/_src/lib/ex/history.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/innerlib/ex_mobile/README.md",
+		"/Users/PuterJam/Labs/GR/js/_src/lib/ex/xhr.js",
+		"/Users/PuterJam/Labs/GR/js/_src/lib/ex/page.js",
+		"/Users/PuterJam/Desktop/hmjkmjkepdijhoojdojkdfohbdgmmhki_40807/keepapp_zh_CN.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/tools/jsdoc3/conf.jsdoc",
+		"/Users/PuterJam/Desktop/jsdoc/conf.json.EXAMPLE",
+		"/Users/PuterJam/Desktop/jsdoc/README.md",
+		"/Users/PuterJam/Desktop/我的项目/QQ备忘录/chrome插件/memo/sandbox.htm",
+		"/Users/PuterJam/Desktop/我的项目/QQ备忘录/chrome插件/memo/background.js",
+		"/Users/PuterJam/Desktop/我的项目/QQ备忘录/chrome插件/memo/manifest.json",
+		"/Users/PuterJam/Desktop/hmjkmjkepdijhoojdojkdfohbdgmmhki_40807/manifest.json",
+		"/Users/PuterJam/Desktop/hmjkmjkepdijhoojdojkdfohbdgmmhki_40807/keepindex.html",
+		"/Users/PuterJam/Desktop/我的项目/QQ备忘录/chrome插件/memo/memo.htm",
+		"/Users/PuterJam/Desktop/hmjkmjkepdijhoojdojkdfohbdgmmhki_40807/_locales/ca/messages.json",
+		"/Users/PuterJam/Labs/GR/css/animation.css",
+		"/Users/PuterJam/Labs/GR/js/_src/module/list.js",
+		"/Users/PuterJam/Labs/GR/js/_src/module.js",
+		"/Users/PuterJam/Labs/GR/js/_src/base.js",
+		"/Users/PuterJam/Labs/GR/js/build.qzmin",
+		"/Users/PuterJam/Labs/GR/js/lib/ex/history.js",
+		"/Users/PuterJam/Labs/GR/js/module/aside.js",
+		"/Users/PuterJam/Labs/GR/js/lib/ex/page.js",
+		"/Users/PuterJam/Labs/GR/js/module.js",
+		"/Users/PuterJam/Labs/GR/data/stream.js",
+		"/Users/PuterJam/Labs/GR/js/lib/ex/transition.js",
+		"/Users/PuterJam/Labs/GR/css/style.css",
+		"/Users/PuterJam/Labs/GR/index_demo.htm",
+		"/Users/PuterJam/Labs/GR/js/event.js",
+		"/Users/PuterJam/Labs/GR/js/lib/ex/util.js",
+		"/Users/PuterJam/Labs/GR/js/lib/ex/base.js",
+		"/Users/PuterJam/Labs/GR/js/base.js",
+		"/Users/PuterJam/Labs/GR/js/dialog.js",
+		"/Users/PuterJam/Desktop/excore.qzmin",
+		"/Users/PuterJam/Labs/GR/index.htm",
+		"/Users/PuterJam/Labs/GR/js/lib/ex/xhr.js",
+		"/Users/PuterJam/Labs/GR/js/module/detail.js",
+		"/Users/PuterJam/Labs/GR/js/module/list.js",
+		"/Users/PuterJam/Labs/GR/js/data.js",
+		"/Users/PuterJam/Labs/web_proj/build/snsapp/app/bee/mobile/js/v2/index_page_all.js",
+		"/Users/PuterJam/Labs/web_proj/build/snsapp/app/bee/mobile/safeness.html",
+		"/Users/PuterJam/Labs/GR/data/subscriptions.js",
+		"/Users/PuterJam/Labs/GR/js/lib/ex/touch.js",
+		"/Users/PuterJam/Labs/GR/js/ex/xhr.js",
+		"/Users/PuterJam/Labs/GR/js/ex/base.js",
+		"/Users/PuterJam/Labs/GR/js/ex/storage.js",
+		"/Users/PuterJam/Labs/GR/js/lib/os/Hammer.js",
+		"/Users/PuterJam/Labs/GR/js/ex/gesture.js",
+		"/Users/PuterJam/Desktop/test.rtf",
+		"/Users/PuterJam/Labs/web_proj/src/app/bee/main/js/bee.js",
+		"/Users/PuterJam/Library/Application Support/Sublime Text 2/Packages/User/SVN.errors.log",
+		"/Users/PuterJam/Desktop/jsdoc/jsdoc",
+		"/Users/PuterJam/Desktop/access_all.txt",
+		"/Users/PuterJam/Downloads/大神.txt",
+		"/Users/PuterJam/Labs/veditor/veditor/build/build.bat",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/css/events_480.css",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/js/module.js",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/js/lib/base_lib.js",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/js/lib/platform_ios_test.js",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/js/subs_detail.js",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/redirect.html",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/js/data.js",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/index2.html",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/cache.mf",
+		"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile/index.html",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/innerlib/ex/util/string/tmpl.js",
+		"/Users/PuterJam/Labs/SNS_FE/qqshow_proj/src/app/mall/public/hot/js/item/index.js",
+		"/Users/PuterJam/Labs/SNS_FE/qqshow_proj/src/app/mall/fashion/hot/js/item/commend_house_html.js",
+		"/Users/PuterJam/Desktop/新文件列表",
+		"/Users/PuterJam/Labs/qqshow_v3/script.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/tools/QZMin/install_for_mac",
+		"/Users/PuterJam/Desktop/文件列表",
+		"/Users/PuterJam/node_modules/mongodb/package.json",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/excore.qzmin",
+		"/Users/PuterJam/Desktop/83_.html",
+		"/Users/PuterJam/Desktop/test.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/tools/QZMin/api/svn.js",
+		"/Volumes/C/Windows/System32/Drivers/etc/hosts",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/core/element.js",
+		"/Users/PuterJam/Desktop/qslib.js",
+		"/Users/PuterJam/Labs/JQ/src/sizzle/speed/frameworks/jquery-1.8.1.js",
+		"/Users/PuterJam/Labs/JQ/src/manipulation.js",
+		"/Users/PuterJam/Labs/qzfl_proj/src/plugins/net/anti_csrf/qzfl_common_anti_csrf.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/innerlib/ex/util/string/url.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/innerlib/ex/util/csrf.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/release/ac/snsapp/fw/excore.html",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/expand/xhr.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/exports.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/core/css.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/core/event.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/core/dom.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/widget/effect.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/tools/QZMin/README.txt",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/tools/QZMin/run.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/release/ac/snsapp/fw/excore.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/core/qzfl.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/core/util.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/expand/xhr_base.js",
+		"/Users/PuterJam/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/Users/PuterJam/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/PuterJam/Library/Application Support/Sublime Text 2/Packages/User/Pretty JSON.sublime-settings",
+		"/Users/PuterJam/Library/Application Support/Sublime Text 2/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/jq/css.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/jq/sizzle-jquery.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/expand/form_sender.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/jq/core.js",
+		"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/jq/exports.js"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/PuterJam/Labs/GR/js/_src/lib/ex",
+			"/Volumes/C/Users/PuterJam/Documents/qzs.qq.com/snsapp/app/bee/mobile",
+			"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/jq",
+			"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini",
+			"/Users/PuterJam/Labs/JQ/src",
+			"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib",
+			"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/jq",
+			"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/expand",
+			"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini",
+			"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/qzfl_mini/expand",
+			"/Users/PuterJam/Labs/JQ/src",
+			"/Users/PuterJam/Labs/SNS_FE/lib_proj/src/outerlib/jq",
+			"/Users/PuterJam/Labs/JQ/src",
+			"/Users/PuterJam/Labs/qzfl_proj/src",
+			"<open files>",
+			"",
+			"/Users/PuterJam/Labs/qzfl_proj/src",
+			"/Users/PuterJam/Labs/web_proj/src",
+			"/Users/PuterJam/Labs/web_proj/build/snsapp/app",
+			"/Users/PuterJam/Labs/web_proj/build/snsapp/app/bee",
+			"",
+			"#"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"base",
+			"ba'e",
+			"	",
+			"espress-mono",
+			"对应终端以及高级浏览器",
+			"ex",
+			"replace",
+			"@class",
+			"global",
+			"globale",
+			"submodules",
+			"boolean||object",
+			"launchWebAuthFlow",
+			"getAuthToken",
+			"chrome.experimental",
+			".identity",
+			"chrome.experimental.identity",
+			"WebAuthFlowDetails",
+			"chrome",
+			"key",
+			"oauth2",
+			"tmpl",
+			"load",
+			"credentials",
+			"Content-Type",
+			"setRequestHeader",
+			"xhr",
+			"onBeforeScrollStart",
+			"preventDefault",
+			"auth",
+			"touch",
+			"renderList",
+			"subs_list",
+			"showSubscription",
+			"SL",
+			"loading",
+			"icon_loading",
+			"right_button",
+			"json",
+			"height: auto",
+			"height:auto",
+			"refreshList",
+			"load_more",
+			"refresh",
+			"append",
+			"loading",
+			"continuation",
+			"oResponse.headers.add",
+			"header",
+			"m_Hide304s",
+			"loginGR",
+			"showweb",
+			"toActivity",
+			"activatePageId",
+			"40",
+			"40px",
+			"in",
+			"summary",
+			"DIG",
+			"tr.module.load",
+			"nav_icon",
+			"酷6",
+			"ease-in",
+			"bind",
+			"transList",
+			"_doAnimation",
+			"!im",
+			"dialog",
+			"_preventDef",
+			"credentials",
+			"alert",
+			"console.",
+			"ex.xhr(\"data/list.js\")",
+			"binddom",
+			"addEventListener",
+			"add",
+			"addevent",
+			"swipe_velocity",
+			"collectEventData",
+			"gesture",
+			"collectEventData",
+			"EVENT_TYPES",
+			"bindDom",
+			"onTouch",
+			"Tap",
+			"getEvent",
+			"addEventListener",
+			"POINTER_PEN",
+			"addEventListener",
+			"a'd'd",
+			"startDetect",
+			"handler",
+			"addEventListener",
+			"handler",
+			"swipeGesture",
+			"@type",
+			"qqshow_v3/htdocs/live/vipact/vip_thousands/ThousandLottery.swf",
+			"ishow.swf",
+			"tc9.swf",
+			"150mo2.swf",
+			"150mao.swf",
+			"150gui.swf",
+			"150cmo.swf",
+			"ILForCard.swf",
+			"calendar_hotsports.js",
+			"calender_hot",
+			"calender_host",
+			"calender",
+			"calender_hot",
+			"calender",
+			"calender_hot",
+			"重试",
+			"calender_hot",
+			"hotSub",
+			"当前",
+			"friendinterest",
+			"getParam(\"mod\")",
+			"getParam",
+			"mo'd",
+			"my_calendar_friend_info",
+			"calendar_sports",
+			"http://imgcache.qq.com/qqshow_v3/htdocs/",
+			"\"",
+			"\",",
+			"qqshow_xp_classical.html",
+			"imgcache/v3/",
+			"–",
+			"enable-th"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"  ",
+			"Ubuntu",
+			"",
+			"http://imgcache.qq.com/qqshow_v3/htdocs/",
+			"--",
+			"$1",
+			"QZFL名字空间",
+			"QZFL",
+			"QZFL名字空间",
+			"@namespace QZFL 事件驱动器，给浏览器提供基本的事件驱动接口",
+			"$1",
+			";",
+			"||",
+			"#",
+			"||"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.git":
+	{
+		"height": 202.0
+	},
+	"output.jsconsole_view":
+	{
+		"height": 114.0
+	},
+	"output.jshint_view":
+	{
+		"height": 114.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 212.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"debugger",
+				"qzfl_proj/docs/qzfl_examples/_source/wiki/debugger"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true
+}
