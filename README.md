@@ -10,7 +10,7 @@ Signature!
 ****
 
 #### 版本以及作者信息
-**版本:** V0.5
+**版本:** V0.6
 
 **作者:** FrontEnd Team from Tencent SNS department.
 ****
@@ -38,42 +38,53 @@ Signature!
 		name: "亮蓝",
 		textStyle: {
 			name: {
-				font:{
+				font: {
 					family:"Ubuntu",
 					size:"21px",
-					weight:"normal", //normal bold lighter... [Optional]
-					style:"normal" //normal italic oblique [Optional]
+					weight:"bold"
 				},
-				x: 149,
-				y: 34,
-				color: "#ffffff"
+				x: 25,
+				y: 38,
+				color: "#106EB3"
 			},
 			group: {
 				font: {
 					family:"Ubuntu",
-					size:"12px"
+					size:"16px"
 				},
-				x: "155 + %name%",
-				y: 34,
-				color: "#ffc73a"
+				x: 25,
+				y: 72,
+				color: "#DE9400",
+				filter: "%value%"
 			},
 			phone: {
 				font: {
 					family:"Ubuntu",
-					size:"13px"
+					size:"12px"
 				},
-				x: 169,
-				y: 73,
-				color: "#ffffff"
+				x: 44,
+				y: 100,
+				color: "#666666",
+				filter: "0755-86013388-%value%"
 			},
 			mobile: {
 				font: {
 					family:"Ubuntu",
-					size:"13px"
+					size:"12px"
 				},
-				x: 352,
-				y: 73,
-				color: "#ffffff"
+				x: 214,
+				y: 100,
+				color: "#666666",
+				filter: "86-%value%"
+			},
+			address:{
+				font: {
+					family:"Ubuntu",
+					size:"14px"
+				},
+				x: 44,
+				y: 124,
+				color: "#666666"
 			}
 		}
 	};
@@ -81,6 +92,10 @@ Signature!
 ****
 
 #### 更新历史
+#####0.6
+1. 模板增加 filter 字段，可以用来格式化每个字段的格式
+2. 增加地址字段
+
 #####0.5
 1. 修改模板 `font` 字段的规则，由原来的字符串改成对象。
 2. 支持更换模板字体

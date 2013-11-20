@@ -56,7 +56,6 @@
 		_FONTS_RULES[v] = k+1;
 	});
 
-	//TODO 补充说明
 	var _CUSTOM_FONT = {"name":"default","group":"default","phone":"default","mobile":"default"};
 
 
@@ -130,17 +129,19 @@
 		ctx.drawImage(this, 0, 0, this.width, this.height);
 
 		//绘制名称
-		_fillText(ctx, $("#rtx_input").val(), theme, "name");
+		theme.textStyle.name && _fillText(ctx, $("#rtx_input").val(), theme, "name");
 
 		//绘制团队名称
 		//var w = ctx.measureText(name).width;
-		_fillText(ctx, "[" + $("#group_input").val() + "]", theme, "group");
+		theme.textStyle.group && _fillText(ctx, $("#group_input").val(), theme, "group");
 
 		//绘制电话号码
-		_fillText(ctx, "0755-86013388-" + $("#phone_input").val(), theme, "phone");
+		theme.textStyle.phone && _fillText(ctx, $("#phone_input").val(), theme, "phone");
 
 		//绘制手机号码
-		_fillText(ctx, "86-" + $("#mobile_input").val(), theme, "mobile");
+		theme.textStyle.mobile && _fillText(ctx, $("#mobile_input").val(), theme, "mobile");
+
+		theme.textStyle.address && _fillText(ctx, $("#address_input").val(), theme, "address");
 	}
 
 	/**
@@ -154,6 +155,8 @@
 		var format = theme.textStyle[textId];
 		var x = _fixPosition(ctx, theme, format.x, "x"),
 			y = _fixPosition(ctx, theme, format.y, "y");
+
+		format.filter = format.filter || "%value%";
 
 		//setup font style
 		var font = new Array(3);
@@ -174,7 +177,7 @@
 		ctx.fillStyle = format.color;
 
 		//fill text
-		ctx.fillText(text, x, y);
+		ctx.fillText(format.filter.replace(/%value%/,text), x, y);
 
 		theme._text[textId] = text;
 	}
